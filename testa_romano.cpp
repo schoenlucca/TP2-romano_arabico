@@ -36,10 +36,23 @@ int main() {
     testar_conversao("XL", 40);       
     testar_conversao("CM", 900);
     
-    // Testes de números complexos
     testar_conversao("MCMXCIV", 1994);    
     testar_conversao("MMCDXLIV", 2444);   
     testar_conversao("MMMCMXCIX", 3999);  
+
+    testar_conversao("XI", 11);
+testar_conversao("XIV", 14);
+testar_conversao("XV", 15);
+testar_conversao("XIX", 19);
+testar_conversao("XX", 20);
+testar_conversao("XXX", 30);
+testar_conversao("XL", 40);
+testar_conversao("L", 50);
+testar_conversao("LX", 60);
+testar_conversao("LXX", 70);
+testar_conversao("LXXX", 80);
+testar_conversao("XC", 90);
+testar_conversao("XCIX", 99);
 
     cout << "\n=== TESTES CONCLUÍDOS ===\n" << endl;
     
