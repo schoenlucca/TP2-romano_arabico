@@ -34,7 +34,13 @@ int main() {
     testar_conversao("IV", 4);        
     testar_conversao("IX", 9);        
     testar_conversao("XL", 40);       
-    testar_conversao("CM", 900);      
+    testar_conversao("CM", 900);
+    
+    // Testes de números complexos
+    testar_conversao("MCMXCIV", 1994);    
+    testar_conversao("MMCDXLIV", 2444);   
+    testar_conversao("MMMCMXCIX", 3999);  
+
     cout << "\n=== TESTES CONCLUÍDOS ===\n" << endl;
     
     return 0;
