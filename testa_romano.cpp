@@ -71,6 +71,16 @@ testar_conversao("CM", 900);
 testar_conversao("CMXC", 990);
 testar_conversao("CMXCIX", 999);
 
+testar_conversao("M", 1000);
+testar_conversao("MI", 1001);
+testar_conversao("MIV", 1004);
+testar_conversao("MCMXCIV", 1994);
+testar_conversao("MM", 2000);
+testar_conversao("MMX", 2010);
+testar_conversao("MMXXIV", 2024);
+testar_conversao("MMM", 3000);
+testar_conversao("MMMCMXCIX", 3999);
+
     cout << "\n=== TESTES CONCLUÍDOS ===\n" << endl;
     
     return 0;
