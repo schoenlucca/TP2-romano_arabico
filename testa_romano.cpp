@@ -81,6 +81,26 @@ testar_conversao("MMXXIV", 2024);
 testar_conversao("MMM", 3000);
 testar_conversao("MMMCMXCIX", 3999);
 
+testar_conversao("IIII", -1);
+testar_conversao("VV", -1);
+testar_conversao("LL", -1);
+testar_conversao("DD", -1);
+testar_conversao("IC", -1);
+testar_conversao("IL", -1);
+testar_conversao("XM", -1);
+testar_conversao("VX", -1);
+testar_conversao("LC", -1);
+testar_conversao("DM", -1);
+testar_conversao("ABCD", -1);
+testar_conversao("XIIII", -1);
+testar_conversao("IIV", -1);
+testar_conversao("VX", -1);
+testar_conversao("", -1);
+testar_conversao(" ", -1);
+testar_conversao("MMMCMXCX", -1);
+testar_conversao("MMMM", -1);
+testar_conversao("MMMMCMXCIX", -1);
+
     cout << "\n=== TESTES CONCLUÍDOS ===\n" << endl;
     
     return 0;
