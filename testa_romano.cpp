@@ -26,6 +26,11 @@ int main() {
     testar_conversao("C", 100);
     testar_conversao("D", 500);
     testar_conversao("M", 1000);
+
+    // Testes de adição (quando valores estão em ordem decrescente)
+    testar_conversao("VII", 7);
+    testar_conversao("XII", 12);     
+    testar_conversao("MMXXIII", 2023); 
  
     cout << "\n=== TESTES CONCLUÍDOS ===\n" << endl;
     
