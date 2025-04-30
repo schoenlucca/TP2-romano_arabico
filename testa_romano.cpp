@@ -21,6 +21,7 @@ int main() {
     
     testar_conversao("I", 1);
     testar_conversao("V", 5);
+    testar_conversao("X", 10);
  
     cout << "\n=== TESTES CONCLUÍDOS ===\n" << endl;
     
