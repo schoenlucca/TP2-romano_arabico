@@ -20,6 +20,7 @@ int main() {
     cout << "\n=== TESTES DE CONVERSÃO ROMANO PARA ARÁBICO ===\n" << endl;
     
     testar_conversao("I", 1);
+    testar_conversao("V", 5);
  
     cout << "\n=== TESTES CONCLUÍDOS ===\n" << endl;
     
