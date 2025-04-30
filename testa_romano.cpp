@@ -23,6 +23,9 @@ int main() {
     testar_conversao("V", 5);
     testar_conversao("X", 10);
     testar_conversao("L", 50);
+    testar_conversao("C", 100);
+    testar_conversao("D", 500);
+    testar_conversao("M", 1000);
  
     cout << "\n=== TESTES CONCLUÍDOS ===\n" << endl;
     
