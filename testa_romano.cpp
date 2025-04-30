@@ -54,6 +54,23 @@ testar_conversao("LXXX", 80);
 testar_conversao("XC", 90);
 testar_conversao("XCIX", 99);
 
+testar_conversao("C", 100);
+testar_conversao("CI", 101);
+testar_conversao("CIV", 104);
+testar_conversao("CXL", 140);
+testar_conversao("CL", 150);
+testar_conversao("CXC", 190);
+testar_conversao("CC", 200);
+testar_conversao("CCC", 300);
+testar_conversao("CD", 400);
+testar_conversao("D", 500);
+testar_conversao("DC", 600);
+testar_conversao("DCC", 700);
+testar_conversao("DCCC", 800);
+testar_conversao("CM", 900);
+testar_conversao("CMXC", 990);
+testar_conversao("CMXCIX", 999);
+
     cout << "\n=== TESTES CONCLUÍDOS ===\n" << endl;
     
     return 0;
