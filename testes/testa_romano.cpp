@@ -41,10 +41,10 @@ int main() {
     testar_conversao("MMMCMXCIX", 3999);  
 
     testar_conversao("XI", 11);
-testar_conversao("XIV", 14);
-testar_conversao("XV", 15);
-testar_conversao("XIX", 19);
-testar_conversao("XX", 20);
+    testar_conversao("XIV", 14);
+    testar_conversao("XV", 15);
+    testar_conversao("XIX", 19);
+    testar_conversao("XX", 20);
 testar_conversao("XXX", 30);
 testar_conversao("XL", 40);
 testar_conversao("L", 50);
